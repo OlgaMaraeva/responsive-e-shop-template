@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ######################################################### */
+/* # Всплывающие формы */
+/* ######################################################### */
+.reveal-modal-bg { 
+	position: fixed; 
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 100000000;
+}
+.reveal-modal {
+	position: absolute;
+	visibility: hidden;
+	top: 100px; 
+	left: 50%;
+	margin-left: -195px;
+	width: 360px;
+	height: auto;
+	padding: 15px;
+	background-image: url(../images/modal-bg.jpg);
+	background-position: center top;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+	z-index: 100000001;
+}
+.div-modal-form-filedblock-1 {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.div-modal-form-filed-1 {
+	width: auto;
+	height: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	background-color: #fafafa;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.div-modal-form-filed-1:hover {
+	background-color: #FFF;
+	-moz-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    -webkit-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    box-shadow: 0 0 10px rgba(52,128,199,0.7);
+}
+.modal-form-filed-1 {
+	width: 348px;
+	height: 28px;
+	font-family: Calibri, "Calibri Light";
+	font-size: 13px;
+	color: #6b6b6b;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #fafafa;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: hidden;
+	outline: none;
+	resize: none;
+}
+.modal-form-filed-1:hover {
+	background-color: #fff;
+}
+.div-modal-form-filed-2 {
+	width: auto;
+	height: 150px;
+	margin-bottom: 15px;
+	text-align: center;
+	background-color: #fafafa;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.div-modal-form-filed-2:hover {
+	background-color: #FFF;
+	-moz-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    -webkit-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    box-shadow: 0 0 10px rgba(52,128,199,0.7);
+}
+.modal-form-filed-2 {
+	width: 348px;
+	height: 138px;
+	font-family: Calibri, "Calibri Light";
+	font-size: 13px;
+	color: #6b6b6b;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #fafafa;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: hidden;
+	outline: none;
+	resize: none;
+}
+.modal-form-filed-2:hover {
+	background-color: #fff;
+}
+.div-modal-form-key-1 {
+	position: relative;
+	margin: auto;
+	margin-top: 30px;
+	width: 150px;
+	height: 27px;
+	padding-top: 13px;
+	font-family: Calibri, "Calibri Light";
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-image: url(../images/top-menu-key-1.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.7);
+    box-shadow: 0 0 3px rgba(0,0,0,0.7)
+}
+.div-modal-form-key-1:hover {
+	background-image: url(../images/top-menu-key-active-1.png);
+}
+.div-modal-form-key-1-bulet {
+	position: absolute;
+	width: 102px;
+	height: 6px;
+	margin-left: 24px;
+	top: -3px;
+	background-image: url(../images/top-menu-bulet-1.png);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.reveal-modal-head-1 {
+	font-family: Calibri, "Calibri Light";
+	font-size: 50px;
+	color: #ff9600;
+	font-weight: normal;
+	text-align: center;
+}
+.reveal-modal .close-reveal-modal {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -15px;
+	right: -15px;
+	background-image: url(../images/reveal-modal-close-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-khtml-border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+} 
+.reveal-modal .close-reveal-modal:hover {
+	background-image: url(../images/reveal-modal-close-active-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    -webkit-box-shadow: 0 0 10px rgba(52,128,199,0.7);
+    box-shadow: 0 0 10px rgba(52,128,199,0.7);
+}
+#znach {
+	width: 250px;
+    clear: both;
+    float: left;
+    font-size: 20px;
+    font-style: italic;
+}
+#znach_no {
+	width: 250px;
+    color: red;
+    float: left;
+    position: relative;
+	margin-left: 34px;
+
+}
